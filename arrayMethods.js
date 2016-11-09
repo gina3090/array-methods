@@ -18,7 +18,7 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 // do your work below!
 // push()
 var nameArray = [];
-var addName = nameArray.push("Gina", "Galante");
+var addName = nameArray.push('Gina', 'Galante');
 console.log(nameArray);
 
 var genericNumberArray = [1, 2, 3, 4, 5];
@@ -94,7 +94,7 @@ console.log(brownOnly.length);
 var orderedValues = [4, 5, 6, 7, 8, 9, 10];
 var insertBeginning = orderedValues.unshift(1, 2, 3);
 console.log(orderedValues);
-var orderedValuesNewLength = console.log(orderedValues.length);
+var orderedValuesNewLength = orderedValues.length;
 
 // concat()
 var randomThingsArray = genericNumberArray.concat(colors);
@@ -104,7 +104,11 @@ var updatedOrders = orderQueue.concat({takeOut: 'Pizza'}, {takeOut: 'Spaghetti'}
 console.log(updatedOrders);
 
 // join()
+var sentence = scrambledWords.join(' ');
+console.log(sentence);
 
+var myFruits = fruitCollection.join(' + ');
+console.log(myFruits);
 
 // slice()
 
