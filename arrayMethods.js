@@ -27,10 +27,10 @@ console.log(genericNumberArray);
 
 // pop()
 var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
-removeLast = colors.pop();
+var removeLast = colors.pop();
 console.log(colors);
 
-popResult = removeLast;
+var popResult = removeLast;
 console.log(popResult);
 
 // reverse()
@@ -41,4 +41,12 @@ console.log(scrambledWords);
 var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
 phoneNumber.reverse();
 console.log(phoneNumber);
+
+// shift()
+var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
+var removeFirst = orderQueue.shift();
+console.log(orderQueue);
+
+var nextOrder = removeFirst;
+console.log(nextOrder);
 
