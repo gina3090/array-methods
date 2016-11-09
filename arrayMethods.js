@@ -18,11 +18,11 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 // do your work below!
 // push()
 var nameArray = [];
-nameArray.push("Gina", "Galante");
+var addName = nameArray.push("Gina", "Galante");
 console.log(nameArray);
 
 var genericNumberArray = [1, 2, 3, 4, 5];
-genericNumberArray.push(6, 7, 8, 9, 10);
+var addNumbers = genericNumberArray.push(6, 7, 8, 9, 10);
 console.log(genericNumberArray);
 
 // pop()
@@ -35,11 +35,11 @@ console.log(popResult);
 
 // reverse()
 var scrambledWords = ['win', 'the', 'for', 'burritos'];
-scrambledWords.reverse();
+var reverseWords = scrambledWords.reverse();
 console.log(scrambledWords);
 
 var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
-phoneNumber.reverse();
+var reverseNumbers = phoneNumber.reverse();
 console.log(phoneNumber);
 
 // shift()
@@ -52,12 +52,12 @@ console.log(nextOrder);
 
 // sort()
 var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
-mixedNums.sort();
+var sortNums = mixedNums.sort();
 console.log(mixedNums);
 console.log(mixedNums.length);
 
 var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
-mixedWords.sort();
+var sortWords = mixedWords.sort();
 console.log(mixedWords);
 console.log(mixedWords.length);
 
@@ -73,9 +73,36 @@ console.log(notFruit);
 console.log(notFruit.length);
 
 var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sneaker', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
-var onlyGems1 = gemBox.splice(5, 2);
-var onlyGems2 = gemBox.splice(6, 4);
+var notGems1 = gemBox.splice(5, 2);
+var notGems2 = gemBox.splice(6, 4);
 console.log(gemBox);
 console.log(gemBox.length);
 
+// insertingElements
+var upToTen = [1, 2, 9, 10];
+var insertNumbers = upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+console.log(upToTen);
+console.log(upToTen.length);
 
+// "why not both?"
+
+
+// unshift()
+
+
+// concat()
+
+
+// join()
+
+
+// slice()
+
+
+// toString()
+
+
+// indexOf()
+
+
+// lastIndexOf()
