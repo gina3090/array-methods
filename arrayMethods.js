@@ -91,7 +91,10 @@ console.log(brownOnly);
 console.log(brownOnly.length);
 
 // unshift()
-
+var orderedValues = [4, 5, 6, 7, 8, 9, 10];
+var insertValues = orderedValues.unshift(1, 2, 3);
+console.log(orderedValues);
+console.log(orderedValues.length);
 
 // concat()
 
