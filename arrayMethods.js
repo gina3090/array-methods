@@ -85,7 +85,10 @@ console.log(upToTen);
 console.log(upToTen.length);
 
 // "why not both?"
-
+var brownOnly = ['brown', 'brownish', 'ad8fy7iuhj23nrsf', 9813, {}, undefined,  'brown'];
+var insertBrown = brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
+console.log(brownOnly);
+console.log(brownOnly.length);
 
 // unshift()
 
