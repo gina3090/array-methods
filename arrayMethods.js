@@ -111,7 +111,13 @@ var myFruits = fruitCollection.join(' + ');
 console.log(myFruits);
 
 // slice()
+var friends = ['Todd', 'Jacoby', 'Miko', 'Joseph', 'Kevin', 'Todd C.'];
+var favoriteFriends = friends.slice(1, 3);
+console.log(favoriteFriends);
+console.log(friends);
 
+var owesMoney = friends.slice(3, 6);
+console.log(owesMoney);
 
 // toString()
 
