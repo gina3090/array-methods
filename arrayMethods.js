@@ -53,11 +53,29 @@ console.log(nextOrder);
 // sort()
 var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
 mixedNums.sort();
-console.log(mixedNums.length);
 console.log(mixedNums);
+console.log(mixedNums.length);
 
 var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
 mixedWords.sort();
-console.log(mixedWords.length);
 console.log(mixedWords);
+console.log(mixedWords.length);
+
+// splice()
+var fruitCollection = ['Apple', 'Scissors', 'Pug', 'Lady Bug', 'Banana', 'Pear'];
+var onlyFruits = fruitCollection.splice(1, 3);
+console.log(fruitCollection);
+console.log(fruitCollection.length);
+
+var fruitCollection = ['Apple', 'Scissors', 'Pug', 'Lady Bug', 'Banana', 'Pear'];
+var notFruit = fruitCollection.splice(1, 3);
+console.log(notFruit);
+console.log(notFruit.length);
+
+var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sneaker', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
+var onlyGems1 = gemBox.splice(5, 2);
+var onlyGems2 = gemBox.splice(6, 4);
+console.log(gemBox);
+console.log(gemBox.length);
+
 
