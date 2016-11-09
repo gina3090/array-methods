@@ -120,7 +120,9 @@ var owesMoney = friends.slice(3, 6);
 console.log(owesMoney);
 
 // toString()
-
+var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
+var monthNameString = monthNames.toString();
+console.log(monthNameString);
 
 // indexOf()
 
