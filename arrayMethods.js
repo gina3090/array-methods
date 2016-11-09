@@ -22,6 +22,16 @@ nameArray.push("Gina", "Galante");
 console.log(nameArray);
 
 var genericNumberArray = [1, 2, 3, 4, 5];
-addNumbers = genericNumberArray.push(6, 7, 8, 9, 10);
+var addNumbers = genericNumberArray.push(6, 7, 8, 9, 10);
 console.log(genericNumberArray);
 
+// pop()
+var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
+var removeLast = colors.pop();
+console.log(colors);
+
+var popResult = removeLast;
+console.log(popResult);
+
+// reverse()
+var scrambledWords = ['win', 'the', 'for', 'burritos'];
