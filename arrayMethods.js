@@ -22,16 +22,23 @@ nameArray.push("Gina", "Galante");
 console.log(nameArray);
 
 var genericNumberArray = [1, 2, 3, 4, 5];
-var addNumbers = genericNumberArray.push(6, 7, 8, 9, 10);
+genericNumberArray.push(6, 7, 8, 9, 10);
 console.log(genericNumberArray);
 
 // pop()
 var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
-var removeLast = colors.pop();
+removeLast = colors.pop();
 console.log(colors);
 
-var popResult = removeLast;
+popResult = removeLast;
 console.log(popResult);
 
 // reverse()
 var scrambledWords = ['win', 'the', 'for', 'burritos'];
+scrambledWords.reverse();
+console.log(scrambledWords);
+
+var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
+phoneNumber.reverse();
+console.log(phoneNumber);
+
