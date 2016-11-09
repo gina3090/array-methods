@@ -50,3 +50,14 @@ console.log(orderQueue);
 var nextOrder = removeFirst;
 console.log(nextOrder);
 
+// sort()
+var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
+mixedNums.sort();
+console.log(mixedNums.length);
+console.log(mixedNums);
+
+var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
+mixedWords.sort();
+console.log(mixedWords.length);
+console.log(mixedWords);
+
