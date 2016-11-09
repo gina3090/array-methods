@@ -92,12 +92,16 @@ console.log(brownOnly.length);
 
 // unshift()
 var orderedValues = [4, 5, 6, 7, 8, 9, 10];
-var insertValues = orderedValues.unshift(1, 2, 3);
+var insertBeginning = orderedValues.unshift(1, 2, 3);
 console.log(orderedValues);
-console.log(orderedValues.length);
+var orderedValuesNewLength = console.log(orderedValues.length);
 
 // concat()
+var randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray);
 
+var updatedOrders = orderQueue.concat({takeOut: 'Pizza'}, {takeOut: 'Spaghetti'});
+console.log(updatedOrders);
 
 // join()
 
